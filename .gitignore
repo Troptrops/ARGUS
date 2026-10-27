@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/*
+!outputs/.gitkeep
+*.npz
+*.zarr/
+*.pth
+*.pt
+*.ckpt
+*.tif
+*.tiff
+.env
+build/
+dist/
+*.egg-info/

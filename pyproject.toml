@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argus-surface-support"
+version = "0.4.2"
+description = "Conservative native CT storage and prediction-positive support observations"
+requires-python = ">=3.10"
+license = {text = "MIT (new argus_support code only)"}
+dependencies = []
+
+[project.optional-dependencies]
+prediction = ["numcodecs>=0.13"]
+maps = ["numpy>=1.26", "tifffile>=2024.1.30"]
+
+[project.scripts]
+argus-surface-support = "argus_support.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["argus_support*"]
