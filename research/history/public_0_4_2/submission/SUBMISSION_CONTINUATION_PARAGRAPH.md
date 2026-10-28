@@ -1,0 +1,9 @@
+## Continuation and collaboration (November–December 2026)
+
+This submission is intended as the first independently reproducible increment of ARGUS, not as a one-off prize artifact. The immediate objective is to make support-state checks easy for researchers to reproduce, interpret, and act on before downstream surface tracing or ink analysis. I recognise that Schurkai's published phantom audit already provides scroll-wide chunk analysis, voxel-level checks and cleanup; any ARGUS feature must earn its place through a fair benchmark or become an upstream contribution.
+
+**November's critical path** is: (1) publish a clean, versioned and reproducible release; (2) benchmark equivalent inputs against established approaches; (3) independently validate prediction-to-CT registration and masked-volume semantics; then (4) demonstrate a practical triage or integration example. Failure at the registration gate limits the tool to explicitly labelled storage-support findings rather than claims about physical papyrus.
+
+**December's target** is a second predeclared validation region or scroll, stable cross-platform reproduction, an actionable machine-readable export, and a documented community review or upstream contribution where useful. I will publish negative results and unresolved issues with the same care as successful demonstrations.
+
+I would welcome technical correction of the coordinate assumptions, suggestions for the most useful existing workflow to integrate with, and independent reproduction of one fixed case. My intention is to contribute a maintained tool or targeted improvements to existing projects beyond the October prize decision, not to seek endorsement or privileged access. The detailed gates, risks and deliverables are in `submission/NOV_DEC_2026_CRITICAL_PATH_PROPOSAL.md`.

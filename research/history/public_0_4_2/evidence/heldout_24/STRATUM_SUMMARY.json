@@ -1,0 +1,23 @@
+{
+  "0": {
+    "cells": 8,
+    "stored_prediction_cells": 7,
+    "absent_prediction_cells": 1,
+    "positive_voxels": 9332548,
+    "positive_voxels_absent_ct": 2789605
+  },
+  "1": {
+    "cells": 8,
+    "stored_prediction_cells": 6,
+    "absent_prediction_cells": 2,
+    "positive_voxels": 10599841,
+    "positive_voxels_absent_ct": 5730007
+  },
+  "2": {
+    "cells": 8,
+    "stored_prediction_cells": 0,
+    "absent_prediction_cells": 8,
+    "positive_voxels": 0,
+    "positive_voxels_absent_ct": 0
+  }
+}

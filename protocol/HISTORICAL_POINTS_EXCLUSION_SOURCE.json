@@ -1,0 +1,168 @@
+{
+  "coordinate_system": "NATIVE_CT_ZYX",
+  "source": "bundled historical 18 predeclared R04 parent samples, not R12",
+  "points": [
+    {
+      "id": "R04_00",
+      "zyx": [
+        18100,
+        5300,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_01",
+      "zyx": [
+        18100,
+        5300,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_02",
+      "zyx": [
+        18100,
+        5300,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_03",
+      "zyx": [
+        18100,
+        5800,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_04",
+      "zyx": [
+        18100,
+        5800,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_05",
+      "zyx": [
+        18100,
+        5800,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_06",
+      "zyx": [
+        18400,
+        5300,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_07",
+      "zyx": [
+        18400,
+        5300,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_08",
+      "zyx": [
+        18400,
+        5300,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_09",
+      "zyx": [
+        18400,
+        5800,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_10",
+      "zyx": [
+        18400,
+        5800,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_11",
+      "zyx": [
+        18400,
+        5800,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_12",
+      "zyx": [
+        18700,
+        5300,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_13",
+      "zyx": [
+        18700,
+        5300,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_14",
+      "zyx": [
+        18700,
+        5300,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_15",
+      "zyx": [
+        18700,
+        5800,
+        4550
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_16",
+      "zyx": [
+        18700,
+        5800,
+        5020
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    },
+    {
+      "id": "R04_17",
+      "zyx": [
+        18700,
+        5800,
+        5360
+      ],
+      "registration": "HISTORICAL_NATIVE_GRID_SAMPLE_NOT_SURFACE_GEOMETRY"
+    }
+  ]
+}

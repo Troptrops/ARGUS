@@ -1,0 +1,5 @@
+# Preserve exact evidence/protocol bytes and manifest hashes on all platforms.
+* -text
+*.pdf binary
+*.png binary
+*.zip binary
