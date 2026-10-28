@@ -1,0 +1,35 @@
+{
+  "commit": "ab9ace908a1644c32ce0206e3eecfefba2c4bc81",
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "639f4ef819d1e1d871d546fdfab8b962d18cd713bf44f344e23667db7ff56181",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/README.md"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "6f7026efef76ecf19777f6f89153ffe3f7cdd552567ec67ec2593e609779bbe9",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/LICENSE"
+    },
+    {
+      "file": "tools/audit_phantom.py",
+      "sha256": "4f0540abe847e7351d5294116bde9ac046fd00bf434c00944b688c32f0f31f08",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/tools/audit_phantom.py"
+    },
+    {
+      "file": "tools/s3zarr.py",
+      "sha256": "59ee3b0c58890d0dde11f2f0bb89c355215b1824876140c27e10fe962b12aa2a",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/tools/s3zarr.py"
+    },
+    {
+      "file": "tools/clean_predictions.py",
+      "sha256": "b99631d00b48a96a2af3b6aabf28b9cfeae238c11204866c74e4ef1beeec59c0",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/tools/clean_predictions.py"
+    },
+    {
+      "file": "tools/verify_voxel_level.py",
+      "sha256": "c110799b5fa850ff5f727848da9359f47bb3abf7917da29faffdfa399a2d8360",
+      "url": "https://raw.githubusercontent.com/Schurkai/vesuvius-phantom-audit/ab9ace908a1644c32ce0206e3eecfefba2c4bc81/tools/verify_voxel_level.py"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "artifact": "ARGUS 0.3.3 -- six-case independent stored-chunk comparison",
+  "scope": "Six frozen, non-random original positive-sample locations; masked CT storage support on assumed nominal shared ZYX grid",
+  "cases": [
+    {
+      "case": "R04_08",
+      "prediction_chunk": "95/27/27",
+      "positive_voxels": 1120896,
+      "zero_voxels": 5956992,
+      "positive_in_missing_ct_storage": 1120896,
+      "positive_in_stored_ct_storage": 0,
+      "missing_ct_fraction_among_positive": 1.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": false,
+      "raw_values": {
+        "0": 5956992,
+        "255": 1120896
+      },
+      "group": "flagged",
+      "decoder": "blosc2",
+      "compressed_sha256": "5e2ada3b76b1a9b55c14f8c3164ff77ed5a33f81e98d876cd1a20f92df7c2110",
+      "source_file": "ARGUS_031_RAW_CAPTURE.zip",
+      "sample_pred_value": 255
+    },
+    {
+      "case": "R04_11",
+      "prediction_chunk": "95/30/27",
+      "positive_voxels": 4102836,
+      "zero_voxels": 2975052,
+      "positive_in_missing_ct_storage": 4102836,
+      "positive_in_stored_ct_storage": 0,
+      "missing_ct_fraction_among_positive": 1.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": false,
+      "raw_values": {
+        "0": 2975052,
+        "255": 4102836
+      },
+      "group": "flagged",
+      "decoder": "blosc2",
+      "compressed_sha256": "5992d5832bfe8e4cd707153e008c92ec42b54f7ced989c8b427b6682086d8e18",
+      "source_file": "ARGUS_031_RAW_CAPTURE.zip",
+      "sample_pred_value": 255
+    },
+    {
+      "case": "R04_00",
+      "prediction_chunk": "94/27/23",
+      "positive_voxels": 2025451,
+      "zero_voxels": 5052437,
+      "positive_in_missing_ct_storage": 0,
+      "positive_in_stored_ct_storage": 2025451,
+      "missing_ct_fraction_among_positive": 0.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": true,
+      "raw_values": {
+        "0": 5052437,
+        "255": 2025451
+      },
+      "group": "comparison",
+      "decoder": "blosc2",
+      "compressed_sha256": "e6720b1fbf5ce7c14d3a1386e62fcd6ef291dfd566247ca49865c0fb94b62eae",
+      "source_file": "ARGUS_032_COMPARATOR_CAPTURE.zip",
+      "sample_pred_value": 255
+    },
+    {
+      "case": "R04_06",
+      "prediction_chunk": "95/27/23",
+      "positive_voxels": 1539949,
+      "zero_voxels": 5537939,
+      "positive_in_missing_ct_storage": 0,
+      "positive_in_stored_ct_storage": 1539949,
+      "missing_ct_fraction_among_positive": 0.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": true,
+      "raw_values": {
+        "0": 5537939,
+        "255": 1539949
+      },
+      "group": "comparison",
+      "decoder": "blosc2",
+      "compressed_sha256": "ec6df951e0d12a881dac49bab1ae3b790212a5359a903fe2404140cc52cbfe48",
+      "source_file": "ARGUS_032_COMPARATOR_CAPTURE.zip",
+      "sample_pred_value": 255
+    },
+    {
+      "case": "R04_07",
+      "prediction_chunk": "95/27/26",
+      "positive_voxels": 893670,
+      "zero_voxels": 6184218,
+      "positive_in_missing_ct_storage": 0,
+      "positive_in_stored_ct_storage": 893670,
+      "missing_ct_fraction_among_positive": 0.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": true,
+      "raw_values": {
+        "0": 6184218,
+        "255": 893670
+      },
+      "group": "comparison",
+      "decoder": "blosc2",
+      "compressed_sha256": "b7a9706309eabb7dfd9393819538c6b79c082407619b75b023742d6e9f43791f",
+      "source_file": "ARGUS_032_COMPARATOR_CAPTURE.zip",
+      "sample_pred_value": 255
+    },
+    {
+      "case": "R04_09",
+      "prediction_chunk": "95/30/23",
+      "positive_voxels": 2061194,
+      "zero_voxels": 5016694,
+      "positive_in_missing_ct_storage": 0,
+      "positive_in_stored_ct_storage": 2061194,
+      "missing_ct_fraction_among_positive": 0.0,
+      "ct_intersection_count": 8,
+      "all_ct_chunks_stored": true,
+      "raw_values": {
+        "0": 5016694,
+        "255": 2061194
+      },
+      "group": "comparison",
+      "decoder": "blosc2",
+      "compressed_sha256": "492126041dfb6390074b083f0f966d91bf4379b065635678e10f6ce04f429816",
+      "source_file": "ARGUS_032_COMPARATOR_CAPTURE.zip",
+      "sample_pred_value": 255
+    }
+  ],
+  "warnings": [
+    "The six cases are selected, not random; flagged cases were deliberately selected for absent CT at sample voxels while comparators were selected for CT-nonzero samples. Contrast must not be interpreted as predictive accuracy or statistical significance.",
+    "Only the masked CT Zarr store and stored chunk existence are evaluated. A missing Zarr chunk has fill_value=0, not proof the original unmasked CT was never captured.",
+    "Prediction-to-CT physical registration is NOT independently verified. Nominal shared shape and index grid are assumed.",
+    "Neither predicted surfaces nor CT chunk-storage status establish authentic papyrus, phantom surfaces, letters, or ink.",
+    "HTTP 200/404 status observations are recorded in capture manifests; these do not constitute independent third-party attestation."
+  ],
+  "capture_hashes": {
+    "flagged": "1387e520bd9b291a161b234ab87be567a06b8da045f5d2d629601d11ba361b82",
+    "comparison": "95cb343e6d992d0ff3ba17d5f46da303e698287b970b32159358010fc28008f4"
+  },
+  "independent_audit": "raw byte count vs NumPy intersecting-rectangle sum",
+  "capture_provenance": {
+    "flagged": {
+      "created_at_utc": "2026-10-22T20:25:44.361321+00:00",
+      "receipts": 20,
+      "GET_200": 4,
+      "HEAD_200": 6,
+      "HEAD_404": 10,
+      "unique_ct_chunk_states": 16,
+      "hashes_match": true
+    },
+    "comparison": {
+      "created_at_utc": "2026-10-22T23:23:54.235395+00:00",
+      "receipts": 34,
+      "GET_200": 6,
+      "HEAD_200": 28,
+      "HEAD_404": 0,
+      "unique_ct_chunk_states": 28,
+      "hashes_match": true
+    }
+  },
+  "summary": {
+    "flagged": {
+      "cases": 2,
+      "positive_voxels": 5223732,
+      "positive_in_missing_ct_storage": 5223732,
+      "positive_in_stored_ct_storage": 0
+    },
+    "comparison": {
+      "cases": 4,
+      "positive_voxels": 6520264,
+      "positive_in_missing_ct_storage": 0,
+      "positive_in_stored_ct_storage": 6520264
+    }
+  },
+  "status": "SIX_CASE_RAW_DATA_VALIDATED"
+}

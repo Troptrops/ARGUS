@@ -1,0 +1,54 @@
+{
+  "review_date": "2026-10-23",
+  "generator": "tools/build_research_figures.py",
+  "records": [
+    {
+      "figure": "01_HELDOUT_FINDING",
+      "caption": "Thirteen stored prediction chunks, eleven absent. Positive-weighted ratio in this local full-chunk sample only; not scroll prevalence or physical papyrus absence.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": null
+    },
+    {
+      "figure": "02_ACTUAL_VOXEL_CASE_H11",
+      "caption": "Original decoded prediction-label counts projected along Z, partitioned using the archived CT-object receipt states. Counts per YX pixel can include multiple Z positions.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": "28676496bf281c635598ca4d3816dce9890ef5e7a03121207ab73280e17ec1c7"
+    },
+    {
+      "figure": "03_SELECTED_CASES_DESCRIPTIVE",
+      "caption": "Outcome-conditioned earlier examples: 5,223,732 absent-region positives across two flagged cases and 6,520,264 stored-region positives across four comparators. Not pooled with the 24-cell survey.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": null
+    },
+    {
+      "figure": "04_METHOD_AND_VALIDITY_GATES",
+      "caption": "Explanatory schematic, not additional measurement. Downstream utility is proposed and has not been demonstrated by a researcher intervention.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": null
+    },
+    {
+      "figure": "08_ARGUS_WHY_IT_MATTERS",
+      "caption": "Explanatory schematic, not additional measurement. Downstream utility is proposed and has not been demonstrated by a researcher intervention.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": null
+    },
+    {
+      "figure": "05_NOV_DEC_CRITICAL_PATH",
+      "caption": "All milestones are conditional proposals. Registration failure restricts interpretation to storage states; equivalent prior-art functionality triggers an upstream or retirement decision.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": null
+    },
+    {
+      "figure": "06_H11_EXPLAINED_WITH_ORIGINAL_SLICES",
+      "caption": "Teal: 82,818 positives in stored CT-chunk regions. Orange: 196,608 positives in absent regions. Y=176 is the label-slab edge; the CT storage transition is Z=128. The 3D locator is not papyrus anatomy.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": "28676496bf281c635598ca4d3816dce9890ef5e7a03121207ab73280e17ec1c7"
+    },
+    {
+      "figure": "07_H11_EXACT_SLAB_RAW_DATA_PROOF",
+      "caption": "Each high-Z slab plane has 3,072 positive labels; 64 such planes total 196,608. The slab is present before 3x max-pool mesh coarsening. Its causal or physical significance is unresolved.",
+      "basis": "Archived source bytes and local CT-object receipts; no live reacquisition",
+      "h11_compressed_sha256": "28676496bf281c635598ca4d3816dce9890ef5e7a03121207ab73280e17ec1c7"
+    }
+  ]
+}

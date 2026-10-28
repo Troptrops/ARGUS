@@ -1,0 +1,282 @@
+{
+  "capture_sha256": "95da18bb2612546e36fba795970b3d6001edc88b4f2e7021ae01e3a779e041a0",
+  "plan_sha256": "a8bcb68978589f8314952f64e8243d556628bcf76a038bf371f077aa20964d97",
+  "selection_regenerated": true,
+  "external_preregistration_attestation": false,
+  "capture_timestamps_locally_recorded": [
+    "2026-10-27T00:54:43.228584+00:00",
+    "2026-10-27T00:55:20.788088+00:00"
+  ],
+  "candidate_cells": 423,
+  "cells": [
+    {
+      "id": "H00",
+      "prediction_key": "92/26/23",
+      "total_positive": 1659843,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 1659843,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H01",
+      "prediction_key": "94/27/24",
+      "total_positive": 1780095,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 1780095,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H02",
+      "prediction_key": "93/28/27",
+      "total_positive": 953305,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 953305,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H03",
+      "prediction_key": "93/26/27",
+      "total_positive": 391531,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 391531,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H04",
+      "prediction_key": "92/27/23",
+      "total_positive": 1546452,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 1546452,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H05",
+      "prediction_key": "94/31/28",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 0,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H06",
+      "prediction_key": "92/31/28",
+      "total_positive": 2757820,
+      "positive_in_absent_ct": 2757820,
+      "positive_in_stored_ct": 0,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H07",
+      "prediction_key": "94/31/26",
+      "total_positive": 243502,
+      "positive_in_absent_ct": 31785,
+      "positive_in_stored_ct": 211717,
+      "stratum": 0,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H08",
+      "prediction_key": "95/32/27",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 1,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H09",
+      "prediction_key": "95/32/24",
+      "total_positive": 627396,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 627396,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H10",
+      "prediction_key": "97/28/24",
+      "total_positive": 45239,
+      "positive_in_absent_ct": 11592,
+      "positive_in_stored_ct": 33647,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H11",
+      "prediction_key": "96/32/23",
+      "total_positive": 279426,
+      "positive_in_absent_ct": 196608,
+      "positive_in_stored_ct": 82818,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H12",
+      "prediction_key": "96/32/28",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 1,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H13",
+      "prediction_key": "96/31/26",
+      "total_positive": 5521807,
+      "positive_in_absent_ct": 5521807,
+      "positive_in_stored_ct": 0,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H14",
+      "prediction_key": "95/30/22",
+      "total_positive": 2156215,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 2156215,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H15",
+      "prediction_key": "95/28/22",
+      "total_positive": 1969758,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 1969758,
+      "stratum": 1,
+      "prediction_status": "PRESENT"
+    },
+    {
+      "id": "H16",
+      "prediction_key": "99/27/23",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H17",
+      "prediction_key": "100/29/27",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H18",
+      "prediction_key": "99/28/28",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H19",
+      "prediction_key": "99/26/26",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H20",
+      "prediction_key": "99/27/27",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H21",
+      "prediction_key": "100/31/27",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H22",
+      "prediction_key": "100/32/24",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    },
+    {
+      "id": "H23",
+      "prediction_key": "98/31/27",
+      "total_positive": 0,
+      "positive_in_absent_ct": 0,
+      "positive_in_stored_ct": 0,
+      "stratum": 2,
+      "prediction_status": "ABSENT_404"
+    }
+  ],
+  "stored_prediction_chunks": 13,
+  "absent_prediction_chunks": 11,
+  "positive_voxels": 19932389,
+  "positive_in_absent_ct": 8519612,
+  "positive_in_stored_ct": 11412777,
+  "absent_share": 0.42742553338689104,
+  "ct_states": {
+    "PRESENT": 75,
+    "ABSENT_404": 111
+  },
+  "receipts": 212,
+  "h11": {
+    "chunk_key": "96/32/23",
+    "compressed_sha256": "28676496bf281c635598ca4d3816dce9890ef5e7a03121207ab73280e17ec1c7",
+    "total_positive": 279426,
+    "positive_in_absent_ct": 196608,
+    "positive_in_stored_ct": 82818,
+    "local_bounds_zyx_half_open": [
+      [
+        128,
+        192
+      ],
+      [
+        176,
+        192
+      ],
+      [
+        0,
+        192
+      ]
+    ],
+    "native_bounds_zyx_half_open": [
+      [
+        18560,
+        18624
+      ],
+      [
+        6320,
+        6336
+      ],
+      [
+        4416,
+        4608
+      ]
+    ],
+    "positive_in_absent_storage_mask_equals_slab": true,
+    "entire_positive_mask_equals_slab": false,
+    "slab_voxels": 196608,
+    "label_values": [
+      0,
+      255
+    ]
+  }
+}

@@ -4,15 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "argus-surface-support"
-version = "0.4.2"
+version = "0.4.3"
 description = "Conservative native CT storage and prediction-positive support observations"
+readme = "README.md"
+authors = [{name = "Spencer Tropea"}]
 requires-python = ">=3.10"
 license = {text = "MIT (new argus_support code only)"}
 dependencies = []
 
 [project.optional-dependencies]
 prediction = ["numcodecs>=0.13"]
+verification = ["blosc2>=2.7", "numpy>=1.26"]
 maps = ["numpy>=1.26", "tifffile>=2024.1.30"]
+research = ["matplotlib>=3.8", "reportlab>=4", "pillow>=10", "pypdf>=5"]
+
+[project.urls]
+Repository = "https://github.com/Troptrops/ARGUS"
+Issues = "https://github.com/Troptrops/ARGUS/issues"
 
 [project.scripts]
 argus-surface-support = "argus_support.__main__:main"

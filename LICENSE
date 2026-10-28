@@ -1,8 +1,6 @@
-MIT License — applies to newly written argus_support code and new tools/tests/docs.
-Supplied legacy/ code and pre-existing handoff materials retain their existing
-ownership and are excluded from this license grant; see docs/LICENSING.md.
+MIT License
 
-Copyright (c) 2026 ARGUS contributors
+Copyright (c) 2026 Spencer Tropea and ARGUS contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

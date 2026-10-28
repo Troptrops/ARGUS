@@ -1,28 +1,21 @@
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion
-cd /d "%~dp0"
-echo =========================================================
-echo ARGUS 0.4 - FROZEN 24-CELL HELD-OUT AUDIT
- echo No Colab. No Codex. Python built-in downloader only.
-echo Full original prediction volume is NOT downloaded.
-echo =========================================================
-where py >nul 2>&1
-if not errorlevel 1 (
-    py -3 --version >nul 2>&1
-    if not errorlevel 1 goto USING_PY
-)
-where python >nul 2>&1
-if not errorlevel 1 goto USING_PYTHON
-echo ERROR: Python 3 not found. No program started.
-pause
-exit /b 1
-:USING_PY
-py -3 -u tools\heldout_capture.py --root "%CD%" --output "%CD%\ARGUS_04_HELDOUT_CAPTURE.zip"
-goto FINISH
-:USING_PYTHON
-python -u tools\heldout_capture.py --root "%CD%" --output "%CD%\ARGUS_04_HELDOUT_CAPTURE.zip"
-:FINISH
-echo.
-echo Send ARGUS_04_HELDOUT_CAPTURE.zip here even if status was PARTIAL or ERROR.
-pause
-endlocal
+pushd "%~dp0"
+if defined ARGUS_PYTHON goto CUSTOM
+py -3 --version >nul 2>&1
+if errorlevel 1 goto FALLBACK
+set "ARGUS_LAUNCH=py -3"
+goto RUN
+:FALLBACK
+set "ARGUS_LAUNCH=python"
+goto RUN
+:CUSTOM
+set ARGUS_LAUNCH="%ARGUS_PYTHON%"
+:RUN
+if not defined ARGUS_CAPTURE set "ARGUS_CAPTURE=%CD%\ARGUS_04_HELDOUT_CAPTURE_NEW_%RANDOM%_%RANDOM%.zip"
+%ARGUS_LAUNCH% tools\heldout_capture.py --root "%CD%" --output "%ARGUS_CAPTURE%"
+set "ARGUS_EXIT=%ERRORLEVEL%"
+echo Exit code: %ARGUS_EXIT%
+popd
+if not defined ARGUS_NO_PAUSE pause
+exit /b %ARGUS_EXIT%

@@ -1,0 +1,199 @@
+{
+  "artifact": "ARGUS_0_4_HELDOUT_PROTOCOL",
+  "status": "FROZEN_BEFORE_ANY_HELDOUT_REMOTE_OBSERVATION",
+  "sampling": "Hash-ranked deterministic selection without replacement, 8 per native-Z third; 24 nominal prediction cells in R04 arena",
+  "population": "Prediction chunk-grid cells intersecting the historical R04 halo; exclude all prior 18-point-survey prediction keys",
+  "frame_half_open_zyx": {
+    "z": [
+      17770,
+      19282
+    ],
+    "y": [
+      5136,
+      6256
+    ],
+    "x": [
+      4368,
+      5488
+    ]
+  },
+  "prediction_chunk_shape": [
+    192,
+    192,
+    192
+  ],
+  "strata_z_chunk_ranges": [
+    [
+      92,
+      94
+    ],
+    [
+      95,
+      97
+    ],
+    [
+      98,
+      100
+    ]
+  ],
+  "seed": "ARGUS-2026-10-22-HELDOUT-24-PREDECLARED-V1",
+  "sample_per_stratum": 8,
+  "prior_18_point_survey_sha256": "1030bbcfbc2e50fbd762b0a3e0fafcd64c2d0fefd1e760f716f59853abf80769",
+  "excluded_prior_prediction_keys": [
+    "94/27/23",
+    "94/27/26",
+    "94/27/27",
+    "94/30/23",
+    "94/30/26",
+    "94/30/27",
+    "95/27/23",
+    "95/27/26",
+    "95/27/27",
+    "95/30/23",
+    "95/30/26",
+    "95/30/27",
+    "97/27/23",
+    "97/27/26",
+    "97/27/27",
+    "97/30/23",
+    "97/30/26",
+    "97/30/27"
+  ],
+  "candidate_cells_after_exclusion": 423,
+  "selection_used_prediction_values": false,
+  "selection_used_ct_storage_states": false,
+  "selection_used_network_or_current_data": false,
+  "ct_base_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0",
+  "prediction_base_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/representations/predictions/surfaces/20250821151803-surface-20260413222639-surface-m7-L0-th0.2.zarr/0",
+  "sample": [
+    {
+      "id": "H00",
+      "prediction_key": "92/26/23",
+      "stratum": 0
+    },
+    {
+      "id": "H01",
+      "prediction_key": "94/27/24",
+      "stratum": 0
+    },
+    {
+      "id": "H02",
+      "prediction_key": "93/28/27",
+      "stratum": 0
+    },
+    {
+      "id": "H03",
+      "prediction_key": "93/26/27",
+      "stratum": 0
+    },
+    {
+      "id": "H04",
+      "prediction_key": "92/27/23",
+      "stratum": 0
+    },
+    {
+      "id": "H05",
+      "prediction_key": "94/31/28",
+      "stratum": 0
+    },
+    {
+      "id": "H06",
+      "prediction_key": "92/31/28",
+      "stratum": 0
+    },
+    {
+      "id": "H07",
+      "prediction_key": "94/31/26",
+      "stratum": 0
+    },
+    {
+      "id": "H08",
+      "prediction_key": "95/32/27",
+      "stratum": 1
+    },
+    {
+      "id": "H09",
+      "prediction_key": "95/32/24",
+      "stratum": 1
+    },
+    {
+      "id": "H10",
+      "prediction_key": "97/28/24",
+      "stratum": 1
+    },
+    {
+      "id": "H11",
+      "prediction_key": "96/32/23",
+      "stratum": 1
+    },
+    {
+      "id": "H12",
+      "prediction_key": "96/32/28",
+      "stratum": 1
+    },
+    {
+      "id": "H13",
+      "prediction_key": "96/31/26",
+      "stratum": 1
+    },
+    {
+      "id": "H14",
+      "prediction_key": "95/30/22",
+      "stratum": 1
+    },
+    {
+      "id": "H15",
+      "prediction_key": "95/28/22",
+      "stratum": 1
+    },
+    {
+      "id": "H16",
+      "prediction_key": "99/27/23",
+      "stratum": 2
+    },
+    {
+      "id": "H17",
+      "prediction_key": "100/29/27",
+      "stratum": 2
+    },
+    {
+      "id": "H18",
+      "prediction_key": "99/28/28",
+      "stratum": 2
+    },
+    {
+      "id": "H19",
+      "prediction_key": "99/26/26",
+      "stratum": 2
+    },
+    {
+      "id": "H20",
+      "prediction_key": "99/27/27",
+      "stratum": 2
+    },
+    {
+      "id": "H21",
+      "prediction_key": "100/31/27",
+      "stratum": 2
+    },
+    {
+      "id": "H22",
+      "prediction_key": "100/32/24",
+      "stratum": 2
+    },
+    {
+      "id": "H23",
+      "prediction_key": "98/31/27",
+      "stratum": 2
+    }
+  ],
+  "rules": [
+    "Attempt every sampled cell; never replace an absent or failed prediction chunk",
+    "Capture its raw Blosc bytes on HTTP 200 and record 404 as dataset fill-only",
+    "Check every overlapping native masked CT Zarr chunk via HEAD",
+    "Any 403, 429, 5xx, timeout or unrecognized HTTP response is UNKNOWN, never ABSENT",
+    "Keep all denominators, missingness and errors; no post-selection based on results",
+    "Only storage support on nominal matching ZYX grid; registration not validated",
+    "No ink, phantom papyrus, surface authenticity or whole-scroll prevalence claim"
+  ]
+}

@@ -1,0 +1,7 @@
+case,group,prediction_chunk,positive_voxels,positive_in_stored_ct_storage,positive_in_missing_ct_storage,missing_ct_fraction_among_positive,ct_intersection_count,all_ct_chunks_stored
+R04_08,flagged,95/27/27,1120896,0,1120896,1.0,8,False
+R04_11,flagged,95/30/27,4102836,0,4102836,1.0,8,False
+R04_00,comparison,94/27/23,2025451,2025451,0,0.0,8,True
+R04_06,comparison,95/27/23,1539949,1539949,0,0.0,8,True
+R04_07,comparison,95/27/26,893670,893670,0,0.0,8,True
+R04_09,comparison,95/30/23,2061194,2061194,0,0.0,8,True
